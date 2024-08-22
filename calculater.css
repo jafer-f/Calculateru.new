@@ -1,0 +1,287 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.cheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #7b8080;
+  
+}
+.cheader > div{
+  background-color: #a69c9;
+  margin: 10px;
+  padding: 5px;
+}
+i{
+  color: #1edfed;
+}
+.Ecal{
+  width: 100%;
+  height: 170px;
+  background-color: #f4fafa;
+  border-radius: 10px;
+}
+.Fcal {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+}
+AA {
+  color: #342bf7;
+  font-size: 50px;
+}
+.Gcal {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 75%;
+  margin-top: 45px;
+}
+.Cno {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  padding: 5px;
+  column-gap: 10%;
+  row-gap: 4%;
+  margin-top: 10%;
+  justify-content: center;
+  text-align: center;
+  color: #302924;
+}
+.Cno > .cat {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(94,249,212,0.8);
+  border-radius: 50%;
+  font-size:40px;
+  justify-content: center;
+  margin-top: 5% ;
+  height: 50px;
+  width: 50px;
+  
+}
+#dog {
+  color: #f224f5;
+  border-radius: 30%;
+  font-size: 50px;
+  border: 2px solid rgba(71,12,12,0.8);
+  background-color: #141912;
+}
+.Citem20 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border-radius: 20px;
+  text-align: center;
+  height: 100px;
+}
+#plus {
+  background-color: #3e301f;
+  border-radius: 20px;
+  justify-content: center;
+  height: 100%;
+}
+#Aplus {
+  border-radius: 30%;
+  text-align: center;
+  font-size: 40px;
+  color: #f224f5;
+  border: 2px solid rgba(71,12,12,0.8);
+  background-color: #141912;
+}
+
+  .Ahistory{
+    background-color: #1edfed;
+    border-radius: 20px;
+    text-align: center;
+  }
+.Bhistory{
+  border-bottom: 2px solid #08f4e7;
+  margin: 10px;
+  padding: 6px;
+}
+.Chistory{
+  padding: 5px;
+  background-color: #1edfed;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.Chistory:hover{
+  background-color: #f842f4;
+}
+.Back{
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: #f842f4;
+  position: fixed;
+  
+  bottom: 10px;
+  left: 10px;
+}
+.Acurrency {
+  height: 50px;
+  width:100%;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+.Bcurrency {
+  margin: 5px;
+}
+.Ccurrency{
+  margin-left: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+input{
+  text-align: center;
+  width: 70px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #40f3f8;
+  border-radius: 5px;
+  background-color: #ccdcdc;
+}
+.Bunit{
+  float: left;
+margin-left: 30px;
+width: 20%;
+margin-top: px;
+}
+.Aunit{
+  
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  }
+  .Cunit{
+    font-weight: bold;
+  }
+  .Dunit{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .Funit {
+    width: 100px;
+    height: 30px;
+    background-color: #f01faa;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .Funit:hover {
+    background-color: #1edfed;
+  }
+  select{
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .Gunit {
+    margin-left: 90%;
+  }
+  Cunit{
+   border-bottom: 1px solid #40f3f8;
+      }
+    .Ugrid{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      margin-top: 45px;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+   .Ugrid > .Uitem{
+      width: 60px;
+      height: 60px;
+      border: 1px solid #f01faa;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 40px;
+      background-color: #40f3f8;
+    }
+    #Uitem {
+      border-radius: 10px;
+      background-color: #4b0d19;
+      color: #40f3f8;
+    }
+        .Cgrid{
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      margin-top: 70px;
+      gap: 20px;
+      justify-content: center;
+      display: none;
+    }
+  
+   .Cgrid > .Citem{
+      width: 60px;
+      height: 60px;
+      border: 1px solid #f01faa;
+      border-radius: 30px;
+      text-align: center;
+      font-size: 40px;
+      background-color: #40f3f8;
+    }
+    
+    @media screen and (min-width: 992px) {
+   #fullcal {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    }
+    @media screen and (min-width: 600px) {
+  .Cgrid {
+    display: block;
+    display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      margin-top: 70px;
+      gap: 20px;
+      justify-content: center;
+  }
+      
+  }
+  /* mobile */
+  @media screen and (max-width: 767px) {
+    .Cno {
+      width: 100%;
+    }
+  }
+    /*tablet*/
+    @media screen and (min-width: 500px) and (max-width: 1023px) {
+    .Cno {
+      width: 50%;
+    }
+    }
+   /* PC */
+@media screen and (min-width: 1024px) {
+  Cno {
+      width: 50%;
+      row-gap: 8%;
+  margin-top: 20%;
+  }
+  .Cno > .cat {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(94,249,212,0.8);
+  border-radius: 50px;
+  font-size:80px;
+  justify-content: center;
+  margin-top: 10% ;
+  height: 100px;
+  width: 100px;
+}
+#dog {
+  
+  border-radius: 60%;
+  font-size: 100px;
+  
+}
+}
